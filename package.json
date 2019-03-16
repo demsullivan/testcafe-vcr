@@ -1,0 +1,25 @@
+{
+  "name": "testcafe-vcr",
+  "version": "0.0.1",
+  "description": "HTTP mocking for TestCafe, inspired by VCR.",
+  "main": "index.js",
+  "scripts": {
+    "test": "testcafe chrome:headless tests",
+    "build": "tsc"
+  },
+  "files": ["lib/**/*"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/demsullivan/testcafe-vcr.git"
+  },
+  "author": "Dave Sullivan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/demsullivan/testcafe-vcr/issues"
+  },
+  "homepage": "https://github.com/demsullivan/testcafe-vcr#readme",
+  "devDependencies": {
+    "testcafe": "^1.1.0",
+    "typescript": "^3.3.3333"
+  }
+}
